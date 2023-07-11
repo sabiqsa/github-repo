@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+# Search User using Github API
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Feature
+* This App have one page.
+* This App can search by username.
+* This App can will show 5 similar name.
+* This App can see detail repo.
+
+
+Requirement
+* This app start from create react next app.
+* This app using typscript.
+* this app use ant design.
+* data api from github.
+* this app use CSS module.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How to start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+* using npm
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm install
+npm run start
 
-## Learn More
+* using yarn
+yarn
+yarn start
 
-To learn more about Next.js, take a look at the following resources:
+open http://localhost:3000/ on your browser.
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Program running
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### halaman utama
 
-## Deploy on Vercel
+#### this page show home pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![tampilanutama](/images/halaman-1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### search
+
+#### this page show when user search by clicking button "search" or "enter"
+
+![search by username](/images/halaman-username.png)
+
+#### this page show the details
+
+![detail on search](/images/halaman-search.png)

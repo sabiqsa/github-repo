@@ -1,0 +1,51 @@
+.SearchContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.PanelContainer {
+    margin-bottom: 24px;
+}
+
+.StarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 0 8px;
+}
+
+.ButtonWrapper{
+    margin: 16px 0;
+}
+
+.DescWrapper {
+   border: 1px solid green
+}
+
+.ContentWrapper {
+    width: 50%;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .SearchContainer {
+        width: 100%;
+    }
+
+    .ContentWrapper {
+        width: 100%;
+    }
+
+    .StarWrapper {
+        border-bottom: 1px solid red;
+    }
+
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .SearchContainer {
+        width: 75%;
+    }
+}
